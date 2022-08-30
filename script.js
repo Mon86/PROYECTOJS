@@ -1,35 +1,26 @@
+// let nombre= prompt ("ingrese su nombre");
+// let pass = prompt ("ingrese su pass");
 
-let nombre=prompt ("INDIQUE SU NOMBRE")
-let contrasena = prompt("ingrese su pass para guardar")
+// for (let i = 2; i >=0 ; i--){
+//     let contra= prompt("ingrese nuevamente la contrasena");
+//     if (pass== contra) {alert ("BIENVENIDO "+ nombre);
+//     break;
+//     }
+//     else if (i== 0) {alert ("su cuenta fue bloqueada");
+// }
+// else {alert ("SE EQUIVOCO, LE QUEDAN" + i + "intentos");
+// }
+// }
 
-for (let i=3; i>=0 ; i--) {
-    let pass= prompt("introduzca su pass nuevamente");
-    if (contrasena === pass) {
-        alert("BIENVENIDO/A  " + nombre);
-        break;
-    }
-    if (i==0) {
-        alert("TU CUENTA FUE BLOQUEADA  " + nombre + "  LLAME PARA REINICIAR PASS")
-    }
-    else {alert ("INTENTE NUEVAMENTE, le quedan" + i + "intentos")}
+
+
+// WHILE
+
+pelicula= ( " ")
+
+do { 
+    let pelicula= prompt ("ingrese su pelicula, o pulse ESC para salir");
+    alert ("buscando la pelicula " + pelicula );
     
-}
-
-
-let series = " ";
-
-
-while (series<= 10 ) {
-    let nombre=prompt("diga su numero secreto");
     
- if (series>=10) {(alert("BIEEEEN"))
-    break;}
- 
- 
-     else {alert ("VAMOS QUEDAN POCAS")};
-   
-} 
-
-
-
-
+} while (pelicula == "ESC");
